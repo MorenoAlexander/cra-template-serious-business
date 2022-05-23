@@ -1,0 +1,28 @@
+{
+  "name": "cra-template-serious-business",
+  "version": "1.0.0",
+  "description": "A CRA template with all the fixings for a serious application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MorenoAlexander/cra-template-serious-business.git"
+  },
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "typescript",
+    "eslint",
+    "airbnb-eslint",
+    "prettier"
+  ],
+  "author": "MorenoAlexander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MorenoAlexander/cra-template-serious-business/issues"
+  },
+  "homepage": "https://github.com/MorenoAlexander/cra-template-serious-business#readme"
+}
