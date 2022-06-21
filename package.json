@@ -1,6 +1,6 @@
 {
   "name": "cra-template-serious-business",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A CRA template with all the fixings for a serious application.",
   "private": false,
   "main": "index.js",
@@ -18,7 +18,11 @@
     "typescript",
     "eslint",
     "airbnb-eslint",
-    "prettier"
+    "prettier",
+    "react-query",
+    "react-router-dom",
+    "@mantine/core",
+    "@mantine/form"
   ],
   "author": "MorenoAlexander",
   "license": "MIT",
