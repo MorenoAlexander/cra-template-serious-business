@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/MorenoAlexander/cra-template-serious-business/issues"
   },
-  "homepage": "https://github.com/MorenoAlexander/cra-template-serious-business#readme"
+  "homepage": "https://github.com/MorenoAlexander/cra-template-serious-business#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  }
 }
