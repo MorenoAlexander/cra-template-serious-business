@@ -37,6 +37,7 @@ jobs:
         with:
           node-version: '16.x'
           registry-url: 'https://registry.npmjs.org'
+          scope: '@morenoalexander'
 
       - name: npm publish
         run: npm publish
