@@ -20,6 +20,7 @@ jobs:
         with:
           node-version: '16.x'
           registry: 'https://npm.pkg.github.com'
+          scope: '@morenoalexander'
       - name: npm publish
         run: npm publish --access public
         env:
