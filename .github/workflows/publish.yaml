@@ -19,13 +19,9 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '16.x'
+          registry: 'https://npm.pkg.github.com'
       - name: npm publish
-        run: |
-          echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB_TOKEN }}" > .npmrc
-          echo "@morenoalexander:registry=https://npm.pkg.github.com" >> .npmrc
-          echo "always-auth=true" >> .npmrc
-          pwd
-          npm publish
+        run: npm publish --access public
         env:
           NPM_USER_CONFIG: /home/runner/work/cra-template-serious-business/cra-template-serious-business/.npmrc
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -42,7 +38,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
         
       - name: npm publish
-        run: npm publish
+        run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 

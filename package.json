@@ -1,6 +1,6 @@
 {
-  "name": "cra-template-serious-business",
-  "version": "1.1.6",
+  "name": "@morenoalexander/cra-template-serious-business",
+  "version": "1.1.7",
   "description": "A CRA template with all the fixings for a serious application.",
   "private": false,
   "main": "index.js",
